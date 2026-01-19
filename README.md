@@ -19,38 +19,42 @@ Antes de iniciar, certifique-se de ter:
 
 Execute os comandos abaixo:
 
-```bash `
+```bash 
 pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs-lts -y && pkg install ffmpeg -y
+```
 
 
-
-```bash`
+```bash
 termux-setup-storage
 
 
+```
+bash`
+cd /storage/emulated/0/Download`
 
-```bash`
-cd /storage/emulated/0/Download
 
-
-```bash`
+```
+bash`
 git clone https://github.com/arthurrenzo104-bit/klovzzada-bot
 
 
 
-```bash`
-cd klovzzada-bot
+```
+bash`
+cd klovzzada-bot`
 
 
 
 
-```bash`
+```
+bash`
 chmod -R 755 ./*
 
 
 
-```bash`
-npm start
+```
+bash`
+npm start`
 
 
 
@@ -68,7 +72,7 @@ Informe o código que aparece no Termux no seu WhatsApp
 Aguarde cerca de 10 segundos
 Para parar o bot, pressione:
 
-CTRL + C
+`CTRL + C`
 
 
 Após parar o bot, configure o arquivo abaixo:
@@ -79,7 +83,10 @@ src/config.js
 
 
 
+```
 Conteúdo de exemplo:
+
+```
 // Prefixo padrão dos comandos.
 export const PREFIX = ".";
 
@@ -97,7 +104,7 @@ export const BOT_LID = "12345678901234567890@lid";
 // Use o comando <prefixo>meu-lid.
 export const OWNER_LID = "12345678901234567890@lid";
 
-
+```
 
 🔁 Iniciando o Bot Novamente.
 
@@ -106,7 +113,7 @@ Depois de configurar tudo, inicie o bot novamente:
 npm start
 
 
-
+```
 ☝🏻Observações Importantes
 O comando de permissões deve ser executado apenas uma vez.
 
@@ -116,6 +123,12 @@ Mantenha o Termux atualizado para evitar erros.
 
 🧠 Créditos
 Bot de WhatsApp Klovzzada, desenvolvido e mantido por Klovzzada.
+
+
+
+Sugestãoes ou Bugs chame 
+```
+55 98 97018-5717
 
 
 
