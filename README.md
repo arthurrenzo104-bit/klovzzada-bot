@@ -19,36 +19,37 @@ Antes de iniciar, certifique-se de ter:
 
 Execute os comandos abaixo:
 
-```bash
+```bash `
 pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs-lts -y && pkg install ffmpeg -y
 
 
-```bash
+
+```bash`
 termux-setup-storage
 
 
 
-```bash
+```bash`
 cd /storage/emulated/0/Download
 
 
-```bash
+```bash`
 git clone https://github.com/arthurrenzo104-bit/klovzzada-bot
 
 
 
-```bash
+```bash`
 cd klovzzada-bot
 
 
 
 
-```bash
+```bash`
 chmod -R 755 ./*
 
 
 
-```bash
+```bash`
 npm start
 
 
