@@ -29,35 +29,35 @@ termux-setup-storage
 
 
 ```
-bash`
+```bash
 cd /storage/emulated/0/Download`
 
 
 ```
-bash`
+```bash
 git clone https://github.com/arthurrenzo104-bit/klovzzada-bot
 
 
 
 ```
-bash`
+```bash
 cd klovzzada-bot`
 
 
 
 
 ```
-bash`
+```bash
 chmod -R 755 ./*
 
 
 
 ```
-bash`
+```bash
 npm start`
 
 
-
+```
 
 📱 Conectando o Bot ao WhatsApp:
 Insira o número de telefone e pressione Enter
