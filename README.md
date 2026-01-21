@@ -27,13 +27,16 @@ pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs-lts 
 ```bash
 termux-setup-storage
 
-
 ```
+
+
 ```bash
-cd /storage/emulated/0/Download`
+cd /storage/emulated/0/Download
 
 
 ```
+
+
 ```bash
 git clone https://github.com/arthurrenzo104-bit/klovzzada-bot
 
@@ -41,7 +44,7 @@ git clone https://github.com/arthurrenzo104-bit/klovzzada-bot
 
 ```
 ```bash
-cd klovzzada-bot`
+cd klovzzada-bot
 
 
 
@@ -54,7 +57,7 @@ chmod -R 755 ./*
 
 ```
 ```bash
-npm start`
+npm start
 
 
 ```
